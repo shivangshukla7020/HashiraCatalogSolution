@@ -35,6 +35,7 @@ public class HashiraInterpolation {
     public static void main(String[] args) throws Exception {
         // JSON parser setup
         ObjectMapper mapper = new ObjectMapper();
+        
         //Adjust the path for test case file
         Map<String, Object> json = mapper.readValue(new File("test/2.json"), new TypeReference<Map<String, Object>>() {});
 
