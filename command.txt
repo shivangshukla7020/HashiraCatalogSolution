@@ -1,0 +1,3 @@
+javac -cp ".;libs/*" HashiraInterpolation.java
+java -cp ".;libs/*" HashiraInterpolation
+
